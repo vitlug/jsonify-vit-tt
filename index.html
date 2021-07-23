@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.17e50649.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSONify VIT Time Table</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="module" crossorigin src="/assets/index.8f89dbc9.js"></script>
+    <link rel="stylesheet" href="/assets/index.4a4754d1.css">
+  </head>
+
+<body>
+    <div class="flex-container">
+        <header class="header">
+            <div class="title">
+                JSONify VIT Time Table
+            </div>
+            <div class="form-check form-switch">
+                <input type="checkbox" class="form-check-input" id="darkSwitch" />
+                <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+            </div>
+            <script src="./dark-mode-switch.min.js"></script>
+        </header>
+        <main class="main">
+            <article>
+                <div>
+                    <h1>JSONify VIT Time Table</h1>
+                </div>
+                <div class="first">
+                    <label for="fileinput" class="form-label">Upload Time Table</label>
+                    <input class="form-control form-control-lg" id="fileinput" type="file">
+                </div>
+
+                <div class="second"><input id="download" type="button" value="Download"></div>
+
+                <div class="iframe" id="ReadResult"> </div>
+            </article>
+        </main>
+        <footer class="footer">
+            Made with :love: from VIT LUG (VIT Linux Users Group)<br /> As Part of Pro-Memoria
+        </footer>
+    </div>
+
+    
+</body>
+
+</html>
